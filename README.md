@@ -1,16 +1,68 @@
-# React + Vite
+# ✅ To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, mobile-styled to-do list app built with **React**, **Vite**, and **Tailwind CSS**. Add tasks, mark them complete, filter by status, and everything persists automatically — no backend required.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Add tasks** — quick input with Enter-to-submit support
+- **Mark complete** — toggle tasks done/undone with a single click
+- **Delete tasks** — remove tasks you no longer need
+- **Filter view** — switch between All, Active, and Completed
+- **Persistent storage** — tasks are saved to `localStorage`, so they survive page reloads
+- **Mobile-first UI** — styled as a phone mockup for a clean, focused experience
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/) — icons
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/CodeAsh215/To-Do-App.git
+cd To-Do-App
+npm install
+```
+
+Run the dev server:
+
+```bash
+npm run dev
+```
+
+Other scripts:
+
+```bash
+npm run build     # production build
+npm run preview   # preview the production build
+npm run lint       # run ESLint
+```
+
+## 📁 Project Structure
+
+src/
+├── assets/ # icons & images
+├── App.jsx # main app logic (add, complete, delete, filter)
+├── App.css
+├── index.css
+└── main.jsx
+
+## 🗺️ Roadmap
+
+- [ ] Edit existing tasks
+- [ ] Due dates / reminders
+- [ ] Drag-and-drop reordering
+- [ ] Dark mode toggle
+- [ ] Deploy live demo
+
+## 🤝 Contributing
+
+This is a personal learning project, but suggestions and issues are welcome.
+
+## 📄 License
+
+[MIT](./LICENSE)
