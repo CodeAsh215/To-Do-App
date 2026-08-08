@@ -44,13 +44,14 @@ npm run lint       # run ESLint
 
 ## 📁 Project Structure
 
+```
 src/
-├── assets/ # icons & images
-├── App.jsx # main app logic (add, complete, delete, filter)
-├── App.css
-├── index.css
-└── main.jsx
-
+├── assets/       # icons & images
+├── App.jsx       # main app logic (add, complete, delete, filter)
+├── App.css       # component-level styles
+├── index.css     # global styles
+└── main.jsx      # app entry point
+```
 ## 🗺️ Roadmap
 
 - [ ] Edit existing tasks
